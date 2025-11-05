@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import StartPage from "./pages/StartPage";
+import StudentsHogvard from "./pages/StudentsHogvard";
+import EmployeesHogvard from "./pages/EmployeesHogvard";
+import CharactersHome from "./pages/CharactersHome";
+import { Routes, Route, Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [item, setItem] = useState();
+  useEffect(() => {
+    setItem(false);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <main>
+        {item ? (
+          <Routes>
+            <Route
+              path="/StartPage"
+              element={<StartPage itemNav={item} setItemNav={setItem} />}
+            />
+            <Route path="/StudentsHogvard" element={<StudentsHogvard />} />
+            <Route path="/EmployeesHogvard" element={<EmployeesHogvard />} />
+            <Route path="/CharactersHome" element={<CharactersHome />} />
+          </Routes>
+        ) : (
+          <StartPage itemNav={item} setItemNav={setItem} />
+        )}
+      </main>
     </div>
   );
 }
