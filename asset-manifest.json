@@ -1,16 +1,41 @@
 {
   "files": {
-    "main.css": "/garry-react-project/static/css/main.f855e6bc.css",
-    "main.js": "/garry-react-project/static/js/main.9fc0ef02.js",
-    "static/js/453.16963e0f.chunk.js": "/garry-react-project/static/js/453.16963e0f.chunk.js",
-    "static/media/logo.svg": "/garry-react-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/garry-react-project/static/css/main.f642ba1c.css",
+    "main.js": "/garry-react-project/static/js/main.7808e8fb.js",
+    "static/js/453.22a71f7a.chunk.js": "/garry-react-project/static/js/453.22a71f7a.chunk.js",
+    "static/media/startPage.jpg": "/garry-react-project/static/media/startPage.b10de8f3be9250dc4a21.jpg",
+    "static/media/Slytherin.svg": "/garry-react-project/static/media/Slytherin.1402f56c62f7942d639f9627f5c632a6.svg",
+    "static/media/Hufflepuff.svg": "/garry-react-project/static/media/Hufflepuff.eca41aee4fb1c4abc9aac0470a0e7531.svg",
+    "static/media/Griffindor.svg": "/garry-react-project/static/media/Griffindor.64a5bc722fb67057a8ad66ed0174eef2.svg",
+    "static/media/Ravenclaw.svg": "/garry-react-project/static/media/Ravenclaw.adc8e4f674471fcf07f04978246a4501.svg",
+    "static/media/hogvardStudents.jpg": "/garry-react-project/static/media/hogvardStudents.7f0670b427a876f9071b.jpg",
+    "static/media/charactersHogvarts.jpg": "/garry-react-project/static/media/charactersHogvarts.3d57a47b06f80478f67a.jpg",
+    "static/media/employees.jpg": "/garry-react-project/static/media/employees.6552eaddbb36becfe619.jpg",
+    "static/media/GarriPotter.jpg": "/garry-react-project/static/media/GarriPotter.9cec8dd0396186feb5f4.jpg",
+    "static/media/HoraceSlughom.jpg": "/garry-react-project/static/media/HoraceSlughom.429ce30691129f4d3c4f.jpg",
+    "static/media/DoloresUmbridge.jpg": "/garry-react-project/static/media/DoloresUmbridge.c97e470dfdd3702d2c8f.jpg",
+    "static/media/ArgusFilch.jpg": "/garry-react-project/static/media/ArgusFilch.9fea0da09252270e30dc.jpg",
+    "static/media/CedricDiggory.jpg": "/garry-react-project/static/media/CedricDiggory.b6e80d34602060e31301.jpg",
+    "static/media/NevilleLongbottom.jpg": "/garry-react-project/static/media/NevilleLongbottom.eff421762eece50b3f6f.jpg",
+    "static/media/RonWeasley.jpg": "/garry-react-project/static/media/RonWeasley.2f0e0d47c5cc27dbf41f.jpg",
+    "static/media/AlbusDumbledore.jpg": "/garry-react-project/static/media/AlbusDumbledore.2f71b855d0ce4bf0b2ef.jpg",
+    "static/media/HermioneGranger.jpg": "/garry-react-project/static/media/HermioneGranger.1e0c7c3b31e44bd1b51b.jpg",
+    "static/media/SiriusBlack.jpg": "/garry-react-project/static/media/SiriusBlack.bff46a39073ca72fd9e7.jpg",
+    "static/media/RubeusHagrid.jpg": "/garry-react-project/static/media/RubeusHagrid.a0cf37a2c305e0d20a2e.jpg",
+    "static/media/DracoMalfoy.jpg": "/garry-react-project/static/media/DracoMalfoy.5f9b492292f66220660e.jpg",
+    "static/media/RemusLupin.jpg": "/garry-react-project/static/media/RemusLupin.da0bf7955ea00010a74e.jpg",
+    "static/media/GinnyWeasley.jpg": "/garry-react-project/static/media/GinnyWeasley.8d6ada48858a2d8272ee.jpg",
+    "static/media/ChoChang.jpg": "/garry-react-project/static/media/ChoChang.2b8c635b755395e6af0d.jpg",
+    "static/media/LunaLovegood.jpg": "/garry-react-project/static/media/LunaLovegood.345b18fe1721aa46c95d.jpg",
+    "static/media/SeverusSnape.jpg": "/garry-react-project/static/media/SeverusSnape.7ef8cc597841531d15c2.jpg",
+    "static/media/MinervaMcGonagall.jpg": "/garry-react-project/static/media/MinervaMcGonagall.fc8b4ef4be7e074c3edd.jpg",
     "index.html": "/garry-react-project/index.html",
-    "main.f855e6bc.css.map": "/garry-react-project/static/css/main.f855e6bc.css.map",
-    "main.9fc0ef02.js.map": "/garry-react-project/static/js/main.9fc0ef02.js.map",
-    "453.16963e0f.chunk.js.map": "/garry-react-project/static/js/453.16963e0f.chunk.js.map"
+    "main.f642ba1c.css.map": "/garry-react-project/static/css/main.f642ba1c.css.map",
+    "main.7808e8fb.js.map": "/garry-react-project/static/js/main.7808e8fb.js.map",
+    "453.22a71f7a.chunk.js.map": "/garry-react-project/static/js/453.22a71f7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.9fc0ef02.js"
+    "static/css/main.f642ba1c.css",
+    "static/js/main.7808e8fb.js"
   ]
 }
