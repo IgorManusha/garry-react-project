@@ -4,6 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const StartPage = ({ itemNav, setItemNav }) => {
   const [item, setItem] = useState();
+
   useEffect(() => {
     setItem(false);
   }, []);

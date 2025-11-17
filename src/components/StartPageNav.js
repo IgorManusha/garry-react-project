@@ -7,7 +7,6 @@ const StartPageNav = ({ itemNav, setItemNav }) => {
   const linkActive = () => {
     setItemNav(true);
   };
-
   return (
     <div>
       <ul className="list">
