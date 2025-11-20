@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import StartPage from "./pages/StartPage";
 import StudentsHogvard from "./pages/StudentsHogvard";
 import EmployeesHogvard from "./pages/EmployeesHogvard";
