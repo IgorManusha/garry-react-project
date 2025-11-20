@@ -16,6 +16,7 @@ const StartPage = ({ itemNav, setItemNav }) => {
   return (
     <div>
       <div className="startPage">
+        <h1>Ласкаво просимо</h1>
         <h1>у світ Гаррі Поттера</h1>
 
         <Link
