@@ -1,0 +1,344 @@
+:root {
+  --main-white: white;
+  --main-gray: rgba(217, 217, 217, 1);
+  --main-black: #1e1d1d;
+  --main-orange: rgba(249, 181, 12, 1);
+  --main-light-orange: rgba(250, 191, 89, 1);
+}
+
+$bp-mobile : 480px;
+$bp-tablet : 768px;
+$bp-desktop : 1280px;
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.startPage {
+  padding: 100px;
+  width: 100%;
+  height: 750px;
+  background-image: url("./img/startPage.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: var(--main-light-orange);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Bluu Next Cyrillic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: $bp-tablet) {
+    font-size: 20px;
+    padding: 50px;
+  }
+
+  @media(max-width: $bp-mobile) {
+    font-size: 10px;
+    padding: 24px;
+  }
+}
+
+.startPageButton {
+  margin-top: 80px;
+  width: 300px;
+  height: 60px;
+  background-color: var(--main-orange);
+  border-radius: 100px;
+  color: var(--main-black);
+
+  @media(max-width: $bp-tablet) {
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: var(--main-orange);
+    border-radius: 50px;
+    color: var(--main-black);
+    font-size: 12px;
+    font-weight: 100;
+    line-height: normal;
+  }
+
+  @media(max-width: $bp-mobile) {
+    margin-top: 20px;
+    width: 120px;
+    height: 38px;
+    background-color: var(--main-orange);
+    border-radius: 22px;
+    color: var(--main-black);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+.startPageButton:hover {
+  box-shadow: 0px 0px 10px red;
+}
+
+.startPageButton:active {
+  box-shadow: 0px 0px 10px red;
+  transform: scale(1.05);
+}
+
+.navList {
+  gap: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--main-black);
+  list-style-type: none;
+  padding: 22px;
+  color: white;
+}
+
+.linkNav:hover {
+  background-color: var(--main-light-orange);
+  box-shadow: 0px 0px 10px red;
+  color: var(--main-black);
+}
+
+a {
+  color: var(--main-white);
+  font-size: 22px;
+  font-family: "Bluu Next Cyrillic";
+
+}
+
+.button {
+  margin-top: 20px;
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  color: var(--main-orange);
+  font-family: "Bluu Next Cyrillic";
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 700;
+  border: 3px solid var(--main-orange);
+  background-color: var(--main-black);
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 20px;
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  color: var(--main-orange);
+  font-family: "Bluu Next Cyrillic";
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 700;
+  border: 3px solid var(--main-orange);
+  background-color: var(--main-black);
+}
+
+.button:hover {
+  color: var(--main-black);
+  background-color: var(--main-light-orange);
+  box-shadow: 0px 0px 10px red;
+}
+
+.button:active {
+  box-shadow: 0px 0px 10px red;
+  transform: scale(1.05);
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 22px;
+  background-color: var(--main-black);
+  padding-bottom: 100px;
+}
+
+.list-card {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+}
+
+.list-card img {
+  border-radius: 22px;
+}
+
+
+/* /////////// STUDENTS HOVARD /////////////////// */
+
+.characters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  background-color: var(--main-black);
+  font-family: "Bluu Next Cyrillic";
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--main-light-orange);
+}
+
+.charactersNav {
+  margin-top: 100px;
+  width: 1240px;
+  height: 60px;
+  border: 2px solid var(--main-gray);
+  border-radius: 22px;
+  display: flex;
+}
+
+.charactersNav-elem {
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  width: 315px;
+  height: 60px;
+  font-family: "Bluu Next Cyrillic";
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.charactersNav-elem:hover {
+  background-color: var(--main-orange);
+  color: var(--main-black);
+}
+
+.container {
+  top: 0px;
+  left: 0px;
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+}
+
+.containerCard {
+  position: relative;
+}
+
+
+
+
+.imgCharacters {
+  border-radius: 22px;
+}
+
+/* ///////// EMPLOYEES HOGVARD /////////////////*/
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--main-light-orange);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Bluu Next Cyrillic;
+  background-color: var(--main-black);
+}
+
+/* ///////// STUDENTS HOGVARD ////////////////// */
+
+.students {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--main-light-orange);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Bluu Next Cyrillic;
+  background-color: var(--main-black);
+}
+
+/* //////// HOVER INFO //////////////// */
+
+.windowInfo {
+  width: 300px;
+  height: 456px;
+  border: 2px solid black;
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 28px;
+  background-color: var(--main-black);
+  padding: 20px;
+}
+
+.infoText {
+  display: flex;
+  gap: 8px;
+}
+
+.infoText p {
+  color: var(--main-white);
+}
+
+.infoText span {}
+
+.modal {
+  display: none;
+  position: absolute;
+  bottom: -22px;
+  left: 258px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 28px;
+  width: 300px;
+  height: 456px;
+}
+
+
+
+.listItem {
+  display: flex;
+}
+
+.cardText {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 16px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 34px;
+  left: 56px;
+}
+
+.cardText h1 {
+  color: var(--main-white);
+}
+
+.cardInfo {
+  display: flex;
+}
+
+.cardInfo:hover .modal {
+  display: flex;
+}
