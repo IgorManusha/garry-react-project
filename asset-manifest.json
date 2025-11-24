@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/garry-react-project/static/css/main.69871343.css",
-    "main.js": "/garry-react-project/static/js/main.ba57a45a.js",
+    "main.css": "/garry-react-project/static/css/main.46587dc5.css",
+    "main.js": "/garry-react-project/static/js/main.c9272a57.js",
     "static/js/453.22a71f7a.chunk.js": "/garry-react-project/static/js/453.22a71f7a.chunk.js",
     "static/media/startPage.jpg": "/garry-react-project/static/media/startPage.b10de8f3be9250dc4a21.jpg",
     "static/media/Slytherin.svg": "/garry-react-project/static/media/Slytherin.1402f56c62f7942d639f9627f5c632a6.svg",
@@ -31,12 +31,12 @@
     "static/media/MinervaMcGonagall.jpg": "/garry-react-project/static/media/MinervaMcGonagall.fc8b4ef4be7e074c3edd.jpg",
     "index.html": "/garry-react-project/index.html",
     "static/media/arrow.svg": "/garry-react-project/static/media/arrow.770508ec356fc3d9894542e32655873a.svg",
-    "main.69871343.css.map": "/garry-react-project/static/css/main.69871343.css.map",
-    "main.ba57a45a.js.map": "/garry-react-project/static/js/main.ba57a45a.js.map",
+    "main.46587dc5.css.map": "/garry-react-project/static/css/main.46587dc5.css.map",
+    "main.c9272a57.js.map": "/garry-react-project/static/js/main.c9272a57.js.map",
     "453.22a71f7a.chunk.js.map": "/garry-react-project/static/js/453.22a71f7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69871343.css",
-    "static/js/main.ba57a45a.js"
+    "static/css/main.46587dc5.css",
+    "static/js/main.c9272a57.js"
   ]
 }
